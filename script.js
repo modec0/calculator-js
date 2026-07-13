@@ -17,3 +17,14 @@ function multiply(a, b) {
 }
 
 console.log(multiply(4, 6));
+
+
+function divide(a, b) {
+    if (b === 0) {
+        return "Cannot divide by zero";
+    }
+
+    return a / b;
+}
+
+console.log(divide(20, 4));
