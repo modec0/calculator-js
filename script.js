@@ -5,3 +5,9 @@ function add(a, b) {
 let result = add(10, 5);
 
 console.log(result);
+
+function subtract(a, b) {
+    return a - b;
+}
+
+console.log(subtract(20, 8));
